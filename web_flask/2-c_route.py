@@ -12,7 +12,7 @@ def home():
 @app.route('/hbnb', strict_slashes=False)
 def hbnb():
     """ Returns HBNB"""
-    return 'HBNB!'
+    return 'HBNB'
 
 @app.route('/c/<text>', strict_slashes=False)
 def c_text(text):
